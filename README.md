@@ -7,11 +7,16 @@ It starts by creating a `Connection` to a local `database.db` file that allow to
 Run any of the following commands in the project's root to run the exercise.
 
 ```
-  python main.py
-  python3 main.py
+python main.py
 ```
 
-_Notes:_
+```
+python3 main.py
+```
 
-- Versions used in development: `Python 3.8.10` and `SQLite 3.31.1`.
-- The file `database.db` is purged every run.
+The file `database.db` is purged every run.
+
+Versions used in development:
+
+- `SQLite 3.31.1`.
+- `Python 3.8.10`
